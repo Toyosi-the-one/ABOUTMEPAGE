@@ -1,0 +1,9 @@
+img{
+    width: 20%;
+}
+body{
+    display: flex;
+    jusitfy-content: center;
+    align-items:center;
+    background-color: lightcyan;
+}
