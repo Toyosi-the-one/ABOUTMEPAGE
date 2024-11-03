@@ -1,9 +1,30 @@
+
+*,html{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
 img{
-    width: 20%;
+    width: 250px;
 }
 body{
     display: flex;
-    jusitfy-content: center;
-    align-items:center;
-    background-color: lightcyan;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.box{
+    width:100px;
+    background-color: azure;
+    align-items: center;
+    padding:20px;
+}
+
+.img{
+    border-radius: 500%;
 }
